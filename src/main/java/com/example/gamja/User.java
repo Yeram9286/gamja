@@ -7,7 +7,7 @@ import lombok.*;
 @Table(name = "users")
 @Getter @Setter
 @NoArgsConstructor
-@AllArgsConstructor//노랭이 골뱅이 왜 있는지 , (어노테이션) 각자의 기능 알기!
+@AllArgsConstructor
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 자동 증가 ID
